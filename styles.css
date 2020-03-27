@@ -1,0 +1,252 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+#toggle {
+    display: none;
+}
+
+.togglearea {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    background-color: white;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.togglearea {
+    display: none;
+}
+
+.togglearea h3 {
+    color: black;
+}
+
+.togglearea h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: black;
+}
+
+.togglearea label span {
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    height: 3px;
+    width: 90%;
+    margin: 0;
+}
+
+.post-container {
+    grid-area: 3 / 2 / 3 / 4;
+    display: grid;
+}
+
+.post-item-a {
+    text-align: center;
+    font-weight: bold;
+  }
+
+.post-item-b {
+    text-align: center;
+    font-style:italic;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 10% 50% 40%;
+}
+
+.logo {
+    justify-self: end;
+    align-self: center;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    color: white;
+}
+
+.nav {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    align-self: center;
+    justify-self: end;
+    grid-row-start: 1;
+    padding-right: 50px;
+}
+
+.center-content {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    color: white;
+}
+
+.post-footer {
+  width: 60%;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  margin:auto;
+}
+
+.footer {
+    width: 60%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: auto;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+#active {
+    text-decoration: underline;
+}
+
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.img-bg-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/home-bg.jpg');
+}
+
+.img-bg-about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/about-bg.jpg');
+}
+
+.img-bg-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/contact-bg.jpg');
+}
+
+.img-bg-posts {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/posts-bg.jpg');
+}
+
+.center-text {
+    align-items: center;
+}
+
+/*  Font classes  */
+.font-one-sm {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.font-one-md {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.font-one-lg {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.font-two-sm {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.font-two-md {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+.font-two-lg {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.font-thin {
+    font-weight: 100;
+    font-size: 1.25rem;
+}
+
+.font-ital {
+    font-style: italic;
+}
+
+/*  End of Font classes */
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .nav {
+        grid-column-start: 2;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .post-footer {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+  }
+
+    .footer {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .font-two-md {
+        font-size: 2rem;
+    }
+
+    .font-two-sm {
+        font-size: 1.5rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav,
+    .container .logo {
+        display: none;
+    }
+
+    .togglearea {
+        display: flex;
+        width: 95vw;
+        margin: auto;
+    }
+
+    hr {
+        color: black;
+        border: 2px solid black;
+    }
+}
