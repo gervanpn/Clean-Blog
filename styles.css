@@ -134,5 +134,7 @@ body, html {
 /*This part is for mobile browsers specifc*/
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-
+  .footer {
+    width: 100%;
+  }
 }
