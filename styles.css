@@ -52,10 +52,6 @@ body, html {
     margin-right: 1rem;
 }
 
-.letter-space {
-  letter-spacing: 5px;
-}
-
 .background {
   background-position: center;
   background-repeat: no-repeat;
@@ -84,38 +80,44 @@ body, html {
 
 /*  Font classes  */
 .font-one-sm {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+  font-weight: 800;
 }
 
 .font-one-md {
-  font-family: 'Lora', sans-serif;
-  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 800;
 }
 
 .font-one-lg {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 4rem;
+  font-weight: 800;
 }
 
 .font-two-sm {
-  font-family: 'Alegreya', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
 }
 
 .font-two-md {
-  font-family: 'Alegreya', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
 }
 
 .font-two-lg {
-  font-family: 'Alegreya', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3rem;
 }
 
 .font-thin {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.25rem;
 }
+
+
+
 
 /*  End of Font classes */
