@@ -104,7 +104,8 @@ body, html {
 
 .font-two-md {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  font-weight: 800;
 }
 
 .font-two-lg {
@@ -113,8 +114,12 @@ body, html {
 }
 
 .font-thin {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.25rem;
+}
+
+.font-ital {
+  font-style: italic;
 }
 
 
