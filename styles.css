@@ -46,6 +46,7 @@ h2 {
 
 .post-container {
   grid-area: 3 / 2 / 3 / 4;
+  display: grid;
   /*border:1px dotted blue;*/
 
 }
@@ -218,7 +219,7 @@ h2 {
         grid-row-start: 4;
         grid-row-end: 5;
   }
-    
+
     .footer {
         grid-column-start: 1;
         grid-column-end: 5;
