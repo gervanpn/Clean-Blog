@@ -6,7 +6,34 @@ body, html {
 h1, h2 {
   margin: 10px 0;
 }
-
+#toggle{
+    display:none;
+}
+.togglearea{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    background-color: white;
+    justify-content: space-between;
+    align-content: center;
+}
+.togglearea{
+    display:none;
+}
+.togglearea h3{
+    color:black;
+}
+.togglearea h3{
+    margin-top:0;
+    margin-bottom:0;
+    color:black;
+}
+.togglearea label span
+{
+    background-color:black;
+    height:4px;
+    width:90%;
+    margin: 2px 0px;
+}
 .container {
   display: grid;
   height: 100vh;
@@ -153,4 +180,30 @@ h1, h2 {
   .font-two-sm {
     font-size: 1.75rem;
   }
+}
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav, .container .logo {
+        display:none;
+    }
+    .smallnav{
+        flex-direction: column;
+    }
+
+    #toggle:checked +.smallnav
+    {
+        display:flex;
+        
+    }
+    .togglearea{
+        display:flex;
+        width: 95vw;
+        margin:auto;
+    }
+    .footer {
+        width: auto;
+    }
+
 }
