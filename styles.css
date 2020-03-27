@@ -4,7 +4,7 @@ body, html {
 }
 
 h1, h2 {
-  margin: 0px 0px;
+  margin: 10px 0;
 }
 
 .container {
@@ -57,7 +57,7 @@ h1, h2 {
 }
 
 .nav a:hover {
-  color: rgb(0, 0, 0);
+  color: red;
 }
 
 #active {
@@ -143,5 +143,11 @@ h1, h2 {
     grid-column-end: 5;
     grid-row-start: 3;
     grid-row-end: 4;
+  }
+  .font-two-md {
+    font-size: 2.25rem;
+  }
+  .font-two-sm {
+    font-size: 1.75rem;
   }
 }
