@@ -42,6 +42,7 @@ body, html {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
+  margin:auto;
 }
 
 .nav a {
@@ -55,8 +56,8 @@ body, html {
   letter-spacing: 5px;
 }
 
-.bg-img-one {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/home-bg.jpg');
+.background {
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,6 +65,22 @@ body, html {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+.img-bg-home {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/home-bg.jpg');
+}
+
+.img-bg-about {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/about-bg.jpg');
+}
+
+.img-bg-contact {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/contact-bg.jpg');
+}
+
+.img-bg-posts {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/posts-bg.jpg');
 }
 
 /*  Font classes  */
