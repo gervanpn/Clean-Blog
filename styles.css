@@ -43,7 +43,7 @@ h1, h2 {
 }
 
 .footer {
-  width: 450px;
+  width: 60%;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 3;
