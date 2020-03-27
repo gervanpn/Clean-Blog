@@ -13,11 +13,11 @@ h1, h2 {
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  border-style: solid;
-  border:none;
+  border:1px solid blue;
 }
 
 .item-a { grid-area: 1 / 1 / 2 / 2;
+
   /*border-top: dashed;*/
   text-align:center;
   font-weight: bold;
