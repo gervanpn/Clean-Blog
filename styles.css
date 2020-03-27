@@ -8,12 +8,12 @@ h1, h2 {
 }
 
 .post-container {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-border-style: solid;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-style: solid;
 }
 
 .item-a { grid-area: 1 / 1 / 2 / 4; }
