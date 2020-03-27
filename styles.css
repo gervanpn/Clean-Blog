@@ -84,34 +84,38 @@ body, html {
 
 /*  Font classes  */
 .font-one-sm {
-  font-family: 'Lora', serif;
+  font-family: 'Lora', sans-serif;
   font-size: 1rem;
 }
 
 .font-one-md {
-  font-family: 'Lora', serif;
+  font-family: 'Lora', sans-serif;
   font-size: 2rem;
 }
 
 .font-one-lg {
-  font-family: 'Lora', serif;
-  font-size: 3rem;
+  font-family: 'Lora', sans-serif;
+  font-size: 4rem;
 }
 
 .font-two-sm {
-  font-family: 'Alegreya', serif;
+  font-family: 'Alegreya', sans-serif;
   font-size: 1rem;
 }
 
 .font-two-md {
-  font-family: 'Alegreya', serif;
+  font-family: 'Alegreya', sans-serif;
   font-size: 2rem;
 }
 
 .font-two-lg {
-  font-family: 'Alegreya', serif;
+  font-family: 'Alegreya', sans-serif;
   font-size: 3rem;
 }
 
+.font-thin {
+  font-weight: 100;
+  font-size: 1.25rem;
+}
 
 /*  End of Font classes */
