@@ -54,6 +54,14 @@ body, html {
     margin-right: 1rem;
 }
 
+.nav a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#active {
+  text-decoration: underline;
+}
+
 .background {
   background-position: center;
   background-repeat: no-repeat;
