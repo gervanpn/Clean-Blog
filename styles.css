@@ -54,7 +54,7 @@ h1, h2 {
 .nav a {
     color: white;
     text-decoration: none;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .nav a:hover {
@@ -128,8 +128,8 @@ h1, h2 {
   font-size: 3rem;
 }
 
-.font-thin {480
-  font-weight: 400;
+.font-thin {
+  font-weight: 100;
   font-size: 1.25rem;
 }
 
