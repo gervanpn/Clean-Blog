@@ -44,6 +44,23 @@ h2 {
     margin: 0;
 }
 
+.post-container {
+  grid-area: 3 / 2 / 3 / 4;
+  /*border:1px dotted blue;*/
+
+}
+.post-item-a {
+    /*border:1px dotted blue;*/
+    text-align: center;
+    font-weight: bold;
+  }
+
+.post-item-b {
+    /*border:1px dotted blue;*/
+    text-align: center;
+    font-style:italic;
+}
+
 .container {
     display: grid;
     height: 100vh;
@@ -77,6 +94,15 @@ h2 {
     align-self: center;
     text-align: center;
     color: white;
+}
+
+.post-footer {
+  width: 60%;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  margin:auto;
 }
 
 .footer {
@@ -186,6 +212,13 @@ h2 {
 
 @media only screen and (max-width: 600px) {
 
+    .post-footer {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+  }
+    
     .footer {
         grid-column-start: 1;
         grid-column-end: 5;
