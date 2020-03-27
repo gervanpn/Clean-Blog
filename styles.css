@@ -54,12 +54,12 @@ h2 {
     text-align: center;
     font-weight: bold;
   }
+
 .post-item-b {
     /*border:1px dotted blue;*/
     text-align: center;
     font-style:italic;
 }
-
 
 .container {
     display: grid;
@@ -212,12 +212,13 @@ h2 {
 
 @media only screen and (max-width: 600px) {
 
-  .post-footer {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    .post-footer {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
   }
+    
     .footer {
         grid-column-start: 1;
         grid-column-end: 5;
