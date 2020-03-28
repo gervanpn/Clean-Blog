@@ -1,11 +1,9 @@
-body,
-html {
+body, html {
     padding: 0px;
     margin: 0px;
 }
 
-h1,
-h2 {
+h1, h2 {
     margin: 10px 0;
 }
 
@@ -45,19 +43,16 @@ h2 {
 }
 
 .post-container {
-  grid-area: 3 / 2 / 3 / 4;
-  display: grid;
-  /*border:1px dotted blue;*/
-
+    grid-area: 3 / 2 / 3 / 4;
+    display: grid;
 }
+
 .post-item-a {
-    /*border:1px dotted blue;*/
     text-align: center;
     font-weight: bold;
   }
 
 .post-item-b {
-    /*border:1px dotted blue;*/
     text-align: center;
     font-style:italic;
 }
